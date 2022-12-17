@@ -1,0 +1,59 @@
+.proj-page-contents {
+    width: 67%;
+    display: block;
+}
+
+.main-contents, footer {
+    font-size: 1.13em;
+}
+
+.main-contents p, .main-contents h1 {
+    /* TODO: messing with bootstrap margins is troubling!*/
+    /*margin-bottom: 0 !important;*/
+}
+
+.main-contents h3 {
+    margin-left: 0
+}
+
+.section-contents {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.design-step {
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.carousel img {
+    height: 70vh;
+    object-fit: contain;
+    border: solid;
+    border-width: 1px;
+    border-radius: 5px
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-caption {
+    color: darkgray;
+}
+
+.carousel-control-prev, .carousel-control-next, .carousel-indicators {
+    filter: invert(100%);
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    color: black;
+}
+
+.carousel-control-next {
+    /*right: -30px;*/
+}
+
+.code-inline  {
+    color: #2d2d2d;
+}
