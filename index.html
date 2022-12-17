@@ -2,374 +2,582 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Bar Admissions</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/index.css">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-    <meta name="description"
-          content="Rhode Island bar exam home page redesign">
+    <title>Redesign</title>
+    <link rel="stylesheet"
+          href="./personas/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/index.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/iterative-design.css">
+    <meta name="description" content="Redesign Project">
 </head>
-<body class="container">
-<header>
-    <div class="title p-5 text-center bg-light header">
-        <div class="row header-row">
-            <div class="col-2 left-header-col"><img
-                    id="left-header-img"
-                    src="images/justice.svg">
-            </div>
-            <div class="col-8 mid-header-col"><h1
-                    class="mid-header-text">RHODE ISLAND
-                JUDICIARY</h1></div>
-
-            <div class="col-2">
-            </div>
-        </div>
-    </div>
-
-    <!--    TODO: small-screen relative position sizing is based on different
-    parent. -->
-    <!--    citation: Collapsible navbar based on https://getbootstrap.com/docs/4.0/components/navbar/-->
-    <nav class="main-nav navbar navbar-expand-lg navbar-light bg-light">
-        <!--  <a class="navbar-brand" href="#">Navbar</a>-->
-        <div class="button-col">
-            <div class="button-div">
-                <button class="navbar-toggler" type="button"
-                        data-toggle="collapse"
-                        data-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-
-                </button>
-            </div>
-
-            <div class="title-small-screen p-5 text-center bg-light">
-                <h1 class=".small-screen-header-text">RHODE
-                    ISLAND JUDICIARY</h1>
-            </div>
-        </div>
+<body>
+<div class="banner-bar">
+    <br>
+    <a href="./index.html" class="header_name"><h2>Anonymous
+        Chimp</h2></a>
+    <h3>A student interested in all aspects of user
+        interface
+        design and research,
+        currently at Brown. </h3>
 
 
-        <div class="collapse navbar-collapse"
-             id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="#" id="navbarDropdown"
-                       role="button" data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">
-                        Courts
-                    </a>
-                    <div class="dropdown-menu"
-                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Supreme
-                            Court</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Superior
-                            Court</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="#" id="navbarDropdown"
-                       role="button" data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">
-                        Americans with Disabilities Act
-                    </a>
-                    <div class="dropdown-menu"
-                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Americans
-                            with Disabilities Act home
-                            page</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="#" id="navbarDropdown"
-                       role="button" data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">Attorney
-                        Resources</a>
-                    <div class="dropdown-menu"
-                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Attorneys
-                            and External Agencies EService
-                            Access</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Access
-                            to Case Information</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Admission
-                            to the Rhode Island Bar</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="#" id="navbarDropdown"
-                       role="button" data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">Interpreters</a>
-                    <div class="dropdown-menu"
-                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">English
-                            Version</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Versión
-                            en Español</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Versão
-                            em Português</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       href="#" id="navbarDropdown"
-                       role="button" data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">Public
-                        Resources</a>
-                    <div class="dropdown-menu"
-                         aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Access
-                            to Case Information</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Attorneys/Agencies
-                            EService Access</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <!--      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-                <!--      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-                <div class="input-group">
-                    <input type="text" class="form-control"
-                           placeholder="Search">
-                    <div class="input-group-btn">
-                        <button class="btn btn-default"
-                                type="submit">
-                            <i class="glyphicon glyphicon-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
-        </div>
+    <!--    <h3>A programmer who explores without boundaries, currently a-->
+    <!--        student at Brown University.</h3>-->
+    <br>
 
-
-    </nav>
-
-</header>
-
-<div>
-    <!-- Citation: vertical button and related page sectioining
-    based on https://www.
-    codeply.com/go/NHX6wfzwdE/bootstrap-4-vertical-menu-
-    with-submenu   -->
-    <div class="container-fluid h-100">
-        <div class="row h-100 side-nav main-info">
-            <!--            <div class="col-2 collapse d-md-flex bg-faded pt-2 h-100"-->
-            <!--                 id="sidebar">-->
-            <!--                <ul class="nav nav-pills flex-column">-->
-            <!--                    <li class="nav-item"><a class="nav-link"-->
-            <!--                                            href="#"><p-->
-            <!--                            class="side-nav-text">General-->
-            <!--                        Information</p></a></li>-->
-            <!--                    <li class="nav-item dropdown">-->
-            <!--                        <a class="nav-link dropdown-toggle"-->
-            <!--                           href="#" id="navbarDropdown"-->
-            <!--                           role="button"-->
-            <!--                           data-toggle="dropdown"-->
-            <!--                           aria-haspopup="true"-->
-            <!--                           aria-expanded="false">-->
-            <!--                            Courts-->
-            <!--                        </a>-->
-            <!--                        <div class="dropdown-menu"-->
-            <!--                             aria-labelledby="navbarDropdown">-->
-            <!--                            <a class="dropdown-item"-->
-            <!--                               href="#">Article II, Rule 1-->
-            <!--                                Admission on Examination</a>-->
-            <!--                            <div class="dropdown-divider"></div>-->
-            <!--                            <a class="dropdown-item"-->
-            <!--                               href="#">Article II, Rule 1B-->
-            <!--                                Admission on Transferred-->
-            <!--                                Uniform Bar Examination-->
-            <!--                                Score </a>-->
-            <!--                            <div class="dropdown-divider"></div>-->
-            <!--                            <a class="dropdown-item"-->
-            <!--                               href="#">Article II, Rule-->
-            <!--                                2(a) Other States Attorney-->
-            <!--                                Admission on-->
-            <!--                                Examination </a>-->
-            <!--                        </div>-->
-            <!--                    </li>-->
-            <!--                    <li class="nav-item"><a class="nav-link"-->
-            <!--                                            href="#">Electronic-->
-            <!--                        Petition for Application</a></li>-->
-            <!--                </ul>-->
-            <!--            </div>-->
-            <div class="col pt-2">
-                <h2 class="section-header-text">
-                    <a href="" data-target="#sidebar"
-                       data-toggle="collapse"
-                       class="hidden-md-up"><i
-                            class="fa fa-bars"></i></a>
-                    General Information on Rhode Island Bar
-                    Admissions
-                </h2>
-                <p>The qualifications needed for admission
-                    of attorneys and others to practice law
-                    are set forth in Article II of the Rhode
-                    Supreme Court Rules. Generally,
-                    admission to the Rhode Island Bar
-                    requires passing the Rhode Island Bar
-                    Examination. In Article II the Supreme
-                    Court has created limited exceptions to
-                    the requirement that only Rhode Island
-                    attorneys who have passed the Rhode
-                    Island Bar Examination can practice law
-                    in Rhode Island.
-
-                    There are several types of admissions
-                    for the Rhode Island Bar:
-                <ul>
-                    <li><span>Rule 1</span>
-
-                        <ul>
-                            <li class="bg-light">
-                                <span>(a)</span>Admission
-                                on Examination
-                                <span
-                                        class="small-button"><a
-                                        href="#">View detailed information</a></span>
-                            </li>
-                            <li>
-                                <span>(b)</span>Admission
-                                on
-                                Transferred Uniform Bar
-                                Examination Score <span
-                                    class="small-button"><a
-                                    href="#">View detailed information</a></span>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>Rule 2: Attorney Admitted in Other
-                        <ul>
-                            <li>(a): On
-                                Examination
-                            </li>
-
-                            <li class="bg-light">(b) and
-                                (e): Programs
-                                providing
-                                services to
-                                indigents - Law school
-                                faculty
-                                supervising clinical law
-
-                                programs
-                            </li>
-
-                            <li><span>(c) and (d):</span>
-                                Admission
-                                while on
-                                active duty with
-                                the armed services - Judge
-                                Advocate
-                                Generals
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li>Rule 9 Nonresident attorneys
-
-                        <ol>
-                            Pro Hac Vice Admission
-                            Registration of In-house
-                            Counsel
-                        </ol>
-                    </li>
-                    <li>Rule 10
-
-                        <ol>
-                            Professional
-                            Service Corporations,
-                            Limited Liability
-                            Partnerships, and
-                            Limited Liability
-                            Companies (Limited Liability
-                            Entities)
-                        </ol>
-                    </li>
-                    <li>Rule 11: Legal Services
-                        Organizations
-                    </li>
-                </ul>
-                </p>
-
-                <div class="row">
-                    <!--                    <div class="col-md-4"><a>Committee on-->
-                    <!--                        Character and Fitness</a></div>-->
-                </div>
-
-                <!-- Code section copied from https://jsfiddle.net/solodev/fx48z9r0/, with modifications. -->
-                <section class="section more-info-section">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <h3 class="text-center more-info-title">
-                                    Quick Links</h3>
-
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
-                                        <div class="box-information mx-0">
-                                            <a href="">Electronic
-                                                Petition for
-                                                Application</a>
-                                        </div>
-                                        <!-- .box-information-->
-                                    </div>
-
-                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
-                                        <div class="box-information mx-0">
-                                            <a href="">Article
-                                                II</a>
-                                        </div>
-                                        <!-- .box-information-->
-                                    </div>
-
-                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
-                                        <div class="box-information mx-0">
-                                            <a href="">Board
-                                                of
-                                                Bar
-                                                Examiners</a>
-                                        </div>
-                                        <!-- .box-information-->
-                                    </div>
-                                </div><!-- .row-->
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </div>
-
-
-        </div>
-    </div>
+    <ul class="nav">
+        <li class="nav-button"><a
+                href="./index.html">Work</a></li>
+        <li class="nav-button"><a
+                href="./about.html">About</a>
+        </li>
+    </ul>
 </div>
+
+
+<section class="container main-contents proj-page-contents"
+         id="top-element">
+    <section class="bg-light-blue">
+        <h1>Redesign: Usability Focused Redesign for a
+            Website</h1>
+    </section>
+    <section class="bg-light-orange">
+        <h3>Context</h3>
+        <p>For this assignment in my UIUX class, I was
+            tasked to choose a website with usability issues
+            and make a new redesign.</p>
+
+        <p>I decided to choose a government website. After
+            browsing through numerous federal and local
+            government websites, I discovered that most of
+            them are well-designed. However, the judiciary
+            branch’s website still suffers from occasional
+            usability issues; specifically, I chose to
+            analyze and
+            remake the
+            Rhode Island bar admissions website.</p>
+    </section>
+    <section class="portfolio-main-card bg-light-orange"
+    >
+        <a class="link-in-project"
+           href="https://www.courts.ri.gov/AttorneyResources/baradmission/Pages/default.aspx"
+           target="_blank" rel="noopener noreferrer">
+            <div><h5>View the Original Website
+                &#8595;</h5>
+            </div>
+            <img class="main-img portfolio-main-img" ,
+                 src="./images/redesign_original.png"
+                 style="height:50vh; width:auto">
+        </a>
+    </section>
+    <section class="design-step bg-light-green">
+        <h3>A Summary of Usability Issues</h3>
+        <!-- align-items-center ensures that text stays in the center. -->
+        <div class="row">
+            <ol>
+                <li><b>The top usability concern: </b>Buttons
+                    do not follow a clear
+                    conceptual model.
+                    <ul>
+                        <li>Currently, there are
+                            lists of buttons on the
+                            left and right. It is
+                            not immeditely clear
+                            which list users should
+                            use for navigation.
+                        </li>
+                        <li>
+                            It will take time for
+                            users to figure out that
+                            some buttons are quick
+                            links to important
+                            resources.
+                        </li>
+                        <li>
+                            It’s not clear that most
+                            of the buttons on the
+                            left are detailed
+                            information on the 5
+                            common admission types.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="row"></div>
+            <div class="row col-md-12">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <figure class="text-center">
+                        <img class="center-block img-fluid border border-dark"
+                             src="./images/redesign_original_left_nav.png"
+                             style="height: 300px; width: auto"/>
+                        <figcaption
+                                class="figure-caption">
+                            Left navigational region.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="text-center align-content-center">
+                        <img class="center-block img-fluid border border-dark"
+                             src="./images/redesign_original_right_nav.png"
+                             style="height: 300px; width: auto"/>
+                        <figcaption
+                                class="figure-caption">
+                            Right navigational
+                            region.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row"></div>
+        </div>
+
+        <div class="row">
+            <ol start="2">
+                <li class="bg-light">It does not offer a
+                    button for
+                    the bar admissions homepage.
+                    <ol>Users should feel safe to
+                        leave the bar exam homepage
+                        and then reenter.
+                    </ol>
+                </li>
+                <li>Main text is slightly gray. It
+                    makes reading a little bit more
+                    inefficient.
+                    <ol>The website is intended for
+                        applicants to read in
+                        detail. Every measure should
+                        be taken to make sure the
+                        applicants read as best as
+                        they could.
+                    </ol>
+                </li>
+                <li class="bg-light">The list of types
+                    of admissions
+                    is not readable.
+                    <ol>There should be a header for
+                        each list item.
+                    </ol>
+                </li>
+                <li> The contact information section
+                    distracts from the main text.
+                </li>
+                <li class="bg-light">COVID information
+                    section offers
+                    low-value information.
+                    <ol>Its only purpose should be
+                        to tell readers that there
+                        are changes to rules based
+                        on COVID-19. Users should
+                        read specific rules at their
+                        own liberty.
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-xs-12"
+                 style="height:5px;"></div>
+        </div>
+    </section>
+    <section>
+        <h3>Accessibility Audit</h3>
+        <p>To identify accesibility issues on the original
+            website,
+            I used WebAim Wave. I agree with its findings
+            that the
+            headers have low-contrast. It also found that
+            most of the buttons, implemented with unordered
+            lists, have accessibility issues.
+        </p>
+
+        <p>Many links on
+            the website are to pdfs and the accessibility
+            evaluation tool gives warnings on them. Because
+            it is conventional for law-related texts to be
+            in pdfs, I disagree that they are problematic
+            for this website.</p>
+
+        <div class="row col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <figure class="text-center align-content-center">
+                    <img class="center-block img-fluid border border-dark"
+                         src="./images/webaim_summary.png"
+                         style="height: 407px; width: auto"/>
+                    <figcaption
+                            class="figure-caption">
+                        WebAim main summary.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-5">
+                <figure class="text-center">
+                    <img class="center-block img-fluid border border-dark"
+                         src="./images/webaim.png"
+                         style="height: 500px; width: auto"/>
+                    <figcaption
+                            class="figure-caption">
+                        The main accesibility audit result.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+
+    <section class="design-step">
+        <h3 class="text-left">Low-definition Mockup</h3>
+        <p>Using Balsamiq Wireframes, I produced the
+            following
+            mockup. The numberings correspond to the
+            usability concerns
+            I described earlier.</p>
+        <div class="row">
+            <div class="row col-md-12">
+                <div class="col-lg-6">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             style="width:auto; height: 50vw"
+                             object-fit="contain"
+                             src="./redesign/images/redesign_iphone.png"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPhone.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             style="width:auto; height: 50vw"
+                             src="./redesign/images/redesign_ipad.png"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPad.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+
+                    <ol>
+                        <li>Navigation
+                            elements
+                            are placed on the right; all
+                            information
+                            links are in the bottom.
+                        </li>
+
+                        <br>
+                        <li>A general information button
+                            assures users
+                            with a way back as they navigate
+                            to other sub-sections.
+                        </li>
+
+                        <br>
+                        <li>Use high contrast text.
+                        </li>
+
+                        <br>
+                        <li>Use headers and nested lists to
+                            achieve hierarchy.
+                        </li>
+
+                        <br>
+                        <li>Contacts is placed at the page
+                            footer.
+                        </li>
+
+                        <br>
+                        <li>Hide most of COVID information
+                            but still alert users about it.
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-8">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             src="./redesign/images/redesign_large_computer.png"
+                             style="width:auto; height: 45vw"/>
+                        <figcaption
+                                class="figure-caption">
+                            Large computer.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design-step">
+        <h3 class="text-left">Visual Design Guide</h3>
+        <div class="row">
+            <div class="row col-md-12">
+                <!--                <div class="col-lg-1">-->
+                <!--                </div>-->
+                <div class="col-lg-10">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             style="width:70vw; height: auto;padding:9px"
+                             object-fit="contain"
+                             src="./redesign/images/visual-design-guide.jpg"/>
+                        <!--                            <figcaption-->
+                        <!--                                    class="figure-caption">-->
+                        <!--                                The Visual Design Guide.-->
+                        <!--                            </figcaption>-->
+                    </figure>
+                </div>
+                <div class="col-lg-1">
+                </div>
+            </div>
+
+    </section>
+
+    <section class="design-step">
+        <h3 class="text-left">High-definition Mockup</h3>
+        <p>Using Figma, I produced high-definition mockups
+            for
+            each screen type. Accompanying these mockups, I
+            annotated
+            with key implementation plans.</p>
+        <div class="row">
+            <div class="row col-md-12">
+
+                <div class="col-lg-4">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             style="width:auto; height: 50vw"
+                             object-fit="contain"
+                             src="./redesign/images/hifi-iphone.jpg"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPhone.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-8">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             style="width:40vw; height: auto"
+                             src="./redesign/images/hifi-ipad-mini.jpg"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPad.
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="col-lg-12">
+                    <p>This responsive-first strategy
+                        starts with cell-phone screens:</p>
+                    <ol>
+                        <li>
+                            Follow the <a
+                                style="color:#2d2d2d;"
+                                href="https://getbootstrap.com/docs/4.0/components/navbar/">"Toggle"
+                            reciple on Bootstrap docs</a> to
+                            make the main navigation button.
+                        </li>
+
+                        <li class="bg-light">The heading
+                            should be in the Bootstrap row
+                            as the
+                            collapsible button</code>.
+                        </li>
+
+                        <li>Use
+                            <code>text-align:center</code>
+                            and <code>margin: auto</code>.
+                            to center text.
+                        </li>
+
+                        <li  class="bg-light">Use <code>h2</code> tag for
+                            section header;
+                        </li>
+
+                        <li>On alternating
+                            bottom-level list
+                            items, use
+                            <code>bg-light</code> to set the
+                            light background.
+                        </li>
+
+                        <li  class="bg-light">Follow this <a
+                                style="color:#2d2d2d;"
+                                href="https://jsfiddle.net/solodev/fx48z9r0/">Quick
+                            Information Section</a> example
+                            to build the quick information
+                            buttons.
+                        </li>
+
+                        <li>Set the quick information
+                            buttons' widths to <code>100%</code>.
+                        </li>
+                    </ol>
+
+                    <p>In typical iPad screens, with
+                        <code>@media (max-width:
+                            992px)</code>, we only need to set quick information buttons'
+                    widths to <code>40%</code>.</p>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-10">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             src="./redesign/images/hifi-macbook.jpg"
+                             style="width:50vw; height: auto"/>
+                        <figcaption
+                                class="figure-caption">
+                            Large computer.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-1"></div>
+
+                <div class="col-lg-12">
+                    <p>In typical computer screens, with
+                        <code>@media (min-width:
+                            990px)</code>, the following
+                        css styling should be applied:</p>
+                    <ol>
+                        <li>The main logo should have <code>width:
+                            150px; height:auto</code>.
+                        </li>
+
+
+                        <li class="bg-light">Main heading
+                            should set to
+                            <code>font-size: 2.5rem</code>.
+                        </li>
+
+                        <li>Center heading
+                            by finding a Bootstrap column
+                            width
+                            wide enough to accomodate the
+                            logo,
+                            add a column with same width to
+                            the right side of heading.
+                        </li>
+
+                        <li class="bg-light">Again, use
+                            <code>text-align:center</code>
+                            and <code>margin: auto</code>.
+                            to center text.
+                        </li>
+
+                        <li>The main
+                            navigation buttons should have
+                            <code>diplay: flex;
+                                justify-content:center.</code>
+                            It's best to
+                            concentrate all buttons and the
+                            search bar at the center, rather
+                            than having
+                            arbitrary gaps.
+                        </li>
+
+                        <li class="bg-light">The main
+                            section should have
+                            <code>width: 80%</code>.
+                        </li>
+                    </ol>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Web Development</h3>
+        <p>Based on my mockup, I made a redesigned website
+            using a combination of Bootstrap and
+            conventional
+            CSS rules.</p>
+        </p>
+    </section>
+
+    <section class="portfolio-main-card bg-light-orange"
+    >
+        <a class="link-in-project"
+           href="./redesign-page/index.html"
+           target="_blank" rel="noopener noreferrer">
+            <div><h5>View the Redesigned Website
+                &#8595;</h5>
+            </div>
+            <img class="main-img portfolio-main-img" ,
+                 src="./redesign/images/redesigned_final_site.png"
+                 style="height:50vh; width:auto;opacity: 0.67">
+        </a>
+    </section>
+
+    <section>
+        <h3>Lessons Learned</h3>
+        <p>Heavy information density is a usability
+            challenge specific to government agency
+            websites.
+            If "quick links" are necessary, it is critical
+            to make sure that they are
+            visually distinct from other navigational
+            elements.</p>
+
+        <p>Bootstrap provides a sound method to implement
+            websites
+            responsive to all screen sizes, thanks to its
+            meticulous
+            rules to adjust HTML element widths.</p>
+
+        <p>Modifying Bootstrap based css rules could be
+            complex.
+            A quick solution is to use Chrome Develepor to
+            find the relevant Bootstrap CSS rules and
+            override them to the website's design. In
+            addition, use <code
+                    class="code-inline">!important</code>
+            tags to make sure that these overrides are
+            successful.
+        </p>
+    </section>
+</section>
+
+<section class="nav-bottom">
+    <a class="nav-bottom-button" href="#top-element"
+       style="margin-right: 7px"
+    >Back to top &#8593;</a>
+
+    <!--    <a class="nav-bottom-button"-->
+    <!--       href="./react.html">View my next work-->
+    <!--        &#8594;</a>-->
+</section>
+
+<section class="empty"></section>
+
+
+<!--<footer class="bg-light">-->
+<!--    <p>Made with &hearts; in Providence, Rhode-->
+<!--        Island.-->
+<!--        October 2022.</p>-->
+<!--    <p>Asset Credit: profile avatars in Persons-->
+<!--        section-->
+<!--        are from <a href="https://www.vecteezy.com/vector-art/139112-head-shot-silhouette">Vecteezy,-->
+<!--            by kevenodes</a>.</p>-->
+<!--</footer>-->
 </body>
+
+</html>
