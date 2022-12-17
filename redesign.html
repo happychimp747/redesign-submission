@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Anonymous Chimp</title>
+    <link rel="stylesheet"
+          href="./personas/css/bootstrap.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/index.css">
+    <link rel="stylesheet" type="text/css"
+          href="css/iterative-design.css">
+    <meta name="description" content="Redesign Project">
+</head>
+<body>
+<div class="banner-bar">
+    <br>
+    <a href="./index.html" class="header_name"><h2>Anonymous
+        Chimp</h2></a>
+    <h3>A student exploring all aspects of user interface
+        design and research,
+        currently at Brown. </h3>
+
+
+    <!--    <h3>A programmer who explores without boundaries, currently a-->
+    <!--        student at Brown University.</h3>-->
+    <br>
+
+    <ul class="nav">
+        <li class="nav-button"><a
+                href="./index.html">Work</a></li>
+        <li class="nav-button"><a
+                href="./about.html">About</a>
+        </li>
+    </ul>
+</div>
+
+
+<section class="container main-contents proj-page-contents"
+         id="top-element">
+    <section class="bg-light-blue">
+        <h1>Redesign: Usability Focused Redesign for a
+            Website</h1>
+    </section>
+    <section class="bg-light-orange">
+        <h3>Context</h3>
+        <p>For this assignment in my UIUX class, I was
+            tasked to choose a website with usability issues
+            and make a new redesign.</p>
+
+        <p>I decided to choose a government website. After
+            browsing through numerous federal and local
+            government websites, I discovered that most of
+            them are well-designed. However, the judiciary
+            branch’s website still suffers from occasional
+            usability issues; specifically, I chose to
+            analyze and
+            remake the
+            Rhode Island bar admissions website.</p>
+    </section>
+    <section class="portfolio-main-card bg-light-orange"
+    >
+        <a class="link-in-project"
+           href="https://www.courts.ri.gov/AttorneyResources/baradmission/Pages/default.aspx"
+           target="_blank" rel="noopener noreferrer">
+            <div><h5>View the Original Website
+                &#8595;</h5>
+            </div>
+            <img class="main-img portfolio-main-img" ,
+                 src="./images/redesign_original.png"
+                 style="height:50vh; width:auto">
+        </a>
+    </section>
+    <section class="design-step bg-light-green">
+        <h3>A Summary of Usability Issues</h3>
+        <!-- align-items-center ensures that text stays in the center. -->
+        <div class="row">
+            <ol>
+                <li><b>The top usability concern: </b>Buttons
+                    do not follow a clear
+                    conceptual model.
+                    <ul>
+                        <li>Currently, there are
+                            lists of buttons on the
+                            left and right. It is
+                            not immediately clear
+                            which list users should
+                            use for navigation.
+                        </li>
+                        <li>
+                            It will take time for
+                            users to figure out that
+                            some buttons are quick
+                            links to important
+                            resources.
+                        </li>
+                        <li>
+                            It’s not clear that most
+                            of the buttons on the
+                            left are detailed
+                            information on the 5
+                            common admission types.
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+            <div class="row"></div>
+            <div class="row col-md-12">
+                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <figure class="text-center">
+                        <img class="center-block img-fluid border border-dark"
+                             src="./images/redesign_original_left_nav.png"
+                             style="height: 300px; width: auto"/>
+                        <figcaption
+                                class="figure-caption">
+                            Left navigational region.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3">
+                    <figure class="text-center align-content-center">
+                        <img class="center-block img-fluid border border-dark"
+                             src="./images/redesign_original_right_nav.png"
+                             style="height: 300px; width: auto"/>
+                        <figcaption
+                                class="figure-caption">
+                            Right navigational
+                            region.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row"></div>
+        </div>
+
+        <div class="row">
+            <ol start="2">
+                <li class="bg-light">It does not offer a
+                    button for
+                    the bar admissions homepage.
+                    <ol>Users should feel safe to
+                        leave the bar exam homepage
+                        and then reenter.
+                    </ol>
+                </li>
+                <li>Main text is slightly gray. It
+                    makes reading a little bit more
+                    inefficient.
+                    <ol>The website is intended for
+                        applicants to read in
+                        detail. Every measure should
+                        be taken to make sure the
+                        applicants read as best as
+                        they could.
+                    </ol>
+                </li>
+                <li class="bg-light">The list of types
+                    of admissions
+                    is not readable.
+                    <ol>There should be a header for
+                        each list item.
+                    </ol>
+                </li>
+                <li> The contact information section
+                    distracts from the main text.
+                </li>
+                <li class="bg-light">COVID information
+                    section offers
+                    low-value information.
+                    <ol>Its only purpose should be
+                        to tell readers that there
+                        are changes to rules based
+                        on COVID-19. Users should
+                        read specific rules at their
+                        own liberty.
+                    </ol>
+                </li>
+            </ol>
+        </div>
+        <div class="row">
+            <div class="col-xs-12"
+                 style="height:5px;"></div>
+        </div>
+    </section>
+    <section>
+        <h3>Accessibility Audit</h3>
+        <p>To identify accesibility issues on the original
+            website,
+            I used WebAim Wave. I agree with its findings
+            that the
+            headers have low-contrast. It also found that
+            most of the buttons, implemented with unordered
+            lists, have accessibility issues.
+        </p>
+
+        <p>Many links on
+            the website are to pdfs and the accessibility
+            evaluation tool gives warnings on them. Because
+            it is conventional for law-related texts to be
+            in pdfs, I disagree that they are problematic
+            for this website.</p>
+
+        <div class="row col-md-12">
+            <div class="col-md-1"></div>
+            <div class="col-md-4">
+                <figure class="text-center align-content-center">
+                    <img class="center-block img-fluid border border-dark"
+                         src="./images/webaim_summary.png"
+                         style="height: 407px; width: auto"/>
+                    <figcaption
+                            class="figure-caption">
+                        WebAim main summary.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-5">
+                <figure class="text-center">
+                    <img class="center-block img-fluid border border-dark"
+                         src="./images/webaim.png"
+                         style="height: 500px; width: auto"/>
+                    <figcaption
+                            class="figure-caption">
+                        The main accesibility audit result.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="col-md-2"></div>
+        </div>
+    </section>
+
+    <section class="design-step">
+        <h3 class="text-left">Low-definition Mockup</h3>
+        <p>Using Balsamiq Wireframes, I produced the
+            following
+            mockup. The numberings correspond to the
+            usability concerns
+            I described earlier.</p>
+        <div class="row">
+            <div class="row col-md-12">
+                <div class="col-lg-6">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             style="width:auto; height: 50vw"
+                             object-fit="contain"
+                             src="./redesign/images/redesign_iphone.png"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPhone.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-6">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             style="width:auto; height: 50vw"
+                             src="./redesign/images/redesign_ipad.png"/>
+                        <figcaption
+                                class="figure-caption">
+                            iPad.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col-lg-4">
+
+                    <ol>
+                        <li>Navigation
+                            elements
+                            are placed on the right; all information
+                            links are in the bottom.
+                        </li>
+
+                            <br>
+                        <li>A general information button assures users
+                            with a way back as they navigate to other sub-sections.
+                        </li>
+
+                        <br>
+                        <li>Use high contrast text.
+                        </li>
+
+                        <br>
+                        <li>Use headers and nested lists to achieve hierarchy.
+                        </li>
+
+                        <br>
+                        <li>Contacts is placed at the page footer.
+                        </li>
+
+                        <br>
+                        <li>Hide most of COVID information but still alert users about it.
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-lg-8">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             object-fit="contain"
+                             src="./redesign/images/redesign_large_computer.png"
+                             style="width:auto; height: 45vw"/>
+                        <figcaption
+                                class="figure-caption">
+                            Large computer.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design-step">
+        <h3 class="text-left">Visual Design Guide</h3>
+        <div class="row">
+            <div class="row col-md-12">
+                <div class="col-lg-12">
+                    <figure class="text-center">
+                        <img class="center-block border border-dark"
+                             style="width:auto; height: 50vw"
+                             object-fit="contain"
+                             src="./redesign/images/design-guide.png"/>
+                        <figcaption
+                                class="figure-caption">
+                            The Visual Design Guide.
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Web Development</h3>
+        <p>Based on my mockup, I made a redesigned website
+            using a combination of Bootstrap and
+            conventional
+            CSS rules.</p>
+        </p>
+    </section>
+
+    <section class="portfolio-main-card bg-light-orange"
+    >
+        <a class="link-in-project"
+           href="https://happychimp747.github.io/redesign/"
+           target="_blank" rel="noopener noreferrer">
+            <div><h5>View the Redesigned Website
+                &#8595;</h5>
+            </div>
+            <img class="main-img portfolio-main-img" ,
+                 src="./redesign/images/reedesign_final_site.png"
+                 style="height:50vh; width:auto;opacity: 0.67">
+        </a>
+    </section>
+
+    <section>
+        <h3>Lessons Learned</h3>
+        <p>Heavy information density is a usability
+            challenge specific to government agency
+            websites.
+            If "quick links" are necessary, it is critical
+            to make sure that they are
+            visually distinct from other navigational
+            elements.</p>
+
+        <p>Bootstrap provides a sound method to implement
+            websites
+            responsive to all screen sizes, thanks to its
+            meticulous
+            rules to adjust HTML element widths.</p>
+
+        <p>Modifying Bootstrap based css rules could be
+            complex.
+            A quick solution is to use Chrome Develepor to
+            find the relevant Bootstrap CSS rules and
+            override them to the website's design. In
+            addition, use <code
+                    class="code-inline">!important</code>
+            tags to make sure that these overrides are
+            successful.
+        </p>
+    </section>
+</section>
+
+<section class="nav-bottom">
+    <a class="nav-bottom-button" href="#top-element"
+       style="margin-right: 7px"
+    >Back to top &#8593;</a>
+
+    <!--    <a class="nav-bottom-button"-->
+    <!--       href="./react.html">View my next work-->
+    <!--        &#8594;</a>-->
+</section>
+
+<section class="empty"></section>
+
+
+<!--<footer class="bg-light">-->
+<!--    <p>Made with &hearts; in Providence, Rhode-->
+<!--        Island.-->
+<!--        October 2022.</p>-->
+<!--    <p>Asset Credit: profile avatars in Persons-->
+<!--        section-->
+<!--        are from <a href="https://www.vecteezy.com/vector-art/139112-head-shot-silhouette">Vecteezy,-->
+<!--            by kevenodes</a>.</p>-->
+<!--</footer>-->
+</body>
+
+</html>

@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Bar Admissions</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+    <meta name="description"
+          content="Rhode Island bar exam home page redesign">
+</head>
+<body class="container">
+<header>
+    <div class="title p-5 text-center bg-light header">
+        <div class="row header-row">
+            <div class="col-2 left-header-col"><img
+                    id="left-header-img"
+                    src="images/justice.svg">
+            </div>
+            <div class="col-8 mid-header-col"><h1
+                    class="mid-header-text">RHODE ISLAND
+                JUDICIARY</h1></div>
+
+            <div class="col-2">
+            </div>
+        </div>
+    </div>
+
+
+    <!--    TODO: small-screen relative position sizing is based on different
+    parent. -->
+    <nav class="main-nav navbar navbar-expand-lg navbar-light bg-light">
+        <!--  <a class="navbar-brand" href="#">Navbar</a>-->
+        <div class="button-col">
+            <div class="button-div">
+                <button class="navbar-toggler" type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+            </div>
+
+            <div class="title-small-screen p-5 text-center bg-light">
+                <h1 class=".small-screen-header-text">RHODE
+                    ISLAND JUDICIARY</h1>
+            </div>
+        </div>
+
+
+        <div class="collapse navbar-collapse"
+             id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">
+                        Courts
+                    </a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Supreme
+                            Court</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Superior
+                            Court</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">
+                        Americans with Disabilities Act
+                    </a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Americans
+                            with Disabilities Act home
+                            page</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">Attorney
+                        Resources</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Attorneys
+                            and External Agencies EService
+                            Access</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Access
+                            to Case Information</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Admission
+                            to the Rhode Island Bar</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">Interpreters</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">English
+                            Version</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Versión
+                            en Español</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Versão
+                            em Português</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#" id="navbarDropdown"
+                       role="button" data-toggle="dropdown"
+                       aria-haspopup="true"
+                       aria-expanded="false">Public
+                        Resources</a>
+                    <div class="dropdown-menu"
+                         aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Access
+                            to Case Information</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Attorneys/Agencies
+                            EService Access</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <!--      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
+                <!--      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+                <div class="input-group">
+                    <input type="text" class="form-control"
+                           placeholder="Search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default"
+                                type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </nav>
+
+</header>
+
+<div>
+    <!-- Citation: vertical button and related page sectioining
+    based on https://www.
+    codeply.com/go/NHX6wfzwdE/bootstrap-4-vertical-menu-
+    with-submenu   -->
+    <div class="container-fluid h-100">
+        <div class="row h-100 side-nav main-info">
+            <!--            <div class="col-2 collapse d-md-flex bg-faded pt-2 h-100"-->
+            <!--                 id="sidebar">-->
+            <!--                <ul class="nav nav-pills flex-column">-->
+            <!--                    <li class="nav-item"><a class="nav-link"-->
+            <!--                                            href="#"><p-->
+            <!--                            class="side-nav-text">General-->
+            <!--                        Information</p></a></li>-->
+            <!--                    <li class="nav-item dropdown">-->
+            <!--                        <a class="nav-link dropdown-toggle"-->
+            <!--                           href="#" id="navbarDropdown"-->
+            <!--                           role="button"-->
+            <!--                           data-toggle="dropdown"-->
+            <!--                           aria-haspopup="true"-->
+            <!--                           aria-expanded="false">-->
+            <!--                            Courts-->
+            <!--                        </a>-->
+            <!--                        <div class="dropdown-menu"-->
+            <!--                             aria-labelledby="navbarDropdown">-->
+            <!--                            <a class="dropdown-item"-->
+            <!--                               href="#">Article II, Rule 1-->
+            <!--                                Admission on Examination</a>-->
+            <!--                            <div class="dropdown-divider"></div>-->
+            <!--                            <a class="dropdown-item"-->
+            <!--                               href="#">Article II, Rule 1B-->
+            <!--                                Admission on Transferred-->
+            <!--                                Uniform Bar Examination-->
+            <!--                                Score </a>-->
+            <!--                            <div class="dropdown-divider"></div>-->
+            <!--                            <a class="dropdown-item"-->
+            <!--                               href="#">Article II, Rule-->
+            <!--                                2(a) Other States Attorney-->
+            <!--                                Admission on-->
+            <!--                                Examination </a>-->
+            <!--                        </div>-->
+            <!--                    </li>-->
+            <!--                    <li class="nav-item"><a class="nav-link"-->
+            <!--                                            href="#">Electronic-->
+            <!--                        Petition for Application</a></li>-->
+            <!--                </ul>-->
+            <!--            </div>-->
+            <div class="col pt-2">
+                <h2 class="section-header-text">
+                    <a href="" data-target="#sidebar"
+                       data-toggle="collapse"
+                       class="hidden-md-up"><i
+                            class="fa fa-bars"></i></a>
+                    General Information on Rhode Island Bar
+                    Admissions
+                </h2>
+                <p>The qualifications needed for admission
+                    of attorneys and others to practice law
+                    are set forth in Article II of the Rhode
+                    Supreme Court Rules. Generally,
+                    admission to the Rhode Island Bar
+                    requires passing the Rhode Island Bar
+                    Examination. In Article II the Supreme
+                    Court has created limited exceptions to
+                    the requirement that only Rhode Island
+                    attorneys who have passed the Rhode
+                    Island Bar Examination can practice law
+                    in Rhode Island.
+
+                    There are several types of admissions
+                    for the Rhode Island Bar:
+                <ul>
+                    <li><span>Rule 1</span>
+
+                        <ul>
+                            <li class="bg-light">
+                                <span>(a)</span>Admission
+                                on Examination
+                                <span
+                                    class="small-button"><a
+                                    href="#">View detailed information</a></span>
+                            </li>
+                            <li>
+                                <span>(b)</span>Admission
+                                on
+                                Transferred Uniform Bar
+                                Examination Score <span
+                                    class="small-button"><a
+                                    href="#">View detailed information</a></span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>Rule 2: Attorney Admitted in Other
+                        <ul>
+                            <li>(a): On
+                                Examination
+                            </li>
+
+                            <li class="bg-light">(b) and
+                                (e): Programs
+                                providing
+                                services to
+                                indigents - Law school
+                                faculty
+                                supervising clinical law
+
+                                programs
+                            </li>
+
+                            <li><span>(c) and (d):</span>
+                                Admission
+                                while on
+                                active duty with
+                                the armed services - Judge
+                                Advocate
+                                Generals
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li>Rule 9 Nonresident attorneys
+
+                        <ol>
+                            Pro Hac Vice Admission
+                            Registration of In-house
+                            Counsel
+                        </ol>
+                    </li>
+                    <li>Rule 10
+
+                        <ol>
+                            Professional
+                            Service Corporations,
+                            Limited Liability
+                            Partnerships, and
+                            Limited Liability
+                            Companies (Limited Liability
+                            Entities)
+                        </ol>
+                    </li>
+                    <li>Rule 11: Legal Services
+                        Organizations
+                    </li>
+                </ul>
+                </p>
+
+                <div class="row">
+                    <!--                    <div class="col-md-4"><a>Committee on-->
+                    <!--                        Character and Fitness</a></div>-->
+                </div>
+
+                <!-- Code section copied from https://jsfiddle.net/solodev/fx48z9r0/, with modifications. -->
+                <section class="section more-info-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h3 class="text-center more-info-title">
+                                    Quick Links</h3>
+
+                                <div class="row">
+                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                        <div class="box-information mx-0">
+                                            <a href="">Electronic
+                                                Petition for
+                                                Application</a>
+                                        </div>
+                                        <!-- .box-information-->
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                        <div class="box-information mx-0">
+                                            <a href="">Article
+                                                II</a>
+                                        </div>
+                                        <!-- .box-information-->
+                                    </div>
+
+                                    <div class="col-xl-3 col-lg-4 col-sm-6 col-12">
+                                        <div class="box-information mx-0">
+                                            <a href="">Board
+                                                of
+                                                Bar
+                                                Examiners</a>
+                                        </div>
+                                        <!-- .box-information-->
+                                    </div>
+                                </div><!-- .row-->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+</body>
